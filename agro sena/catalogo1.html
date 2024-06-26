@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>catalogo de productos</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="app1.js"async></script>
+</head>
+<body>
+    <header>
+        <h1>Catalogo de los productos</h1>
+    </header>
+    <section class="contenedor">
+        <!--contenedor de los elementos-->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">huevos</span>
+                <img src="./imagenes/huevos" alt="" class="img-item">
+                <span class="precio-item">$13.000</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Leche</span>
+                <img src="./imagenes/leche.jpg" alt="" class="img-item">
+                <span class="precio-item">$8.000 el litro</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Queso</span>
+                <img src="./imagenes/queso.jpeg" alt="" class="img-item">
+                <span class="precio-item">$7.300</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Cuajada</span>
+                <img src="./imagenes/quajada.jpeg" alt="" class="img-item">
+                <span class="precio-item">$6.000</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Leche de cabra</span>
+                <img src="./imagenes/leche de cabra.jpeg" alt="" class="img-item">
+                <span class="precio-item">$2.000 el vaso</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Yogurt artesanal</span>
+                <img src="./imagenes/yogur.jpg" alt="" class="img-item">
+                <span class="precio-item">$22.000</span>
+                <button class="boton-item">Agregar al carrito</button>
+            </div>
+        </div>
+        <!--carrito de compras-->
+        <div class="carrito">
+            <div class="header-carrito">
+                <h2>Tu carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="./imagenes/huevos" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Elegir cantidad</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>                           
+                        </div>
+                        <span class="carrito-item-precio">$13.000</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+
+                <div class="carrito-item">
+                    <img src="./imagenes/leche.jpg" alt="" width="80px">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Elegir cantidad</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="2" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>                           
+                        </div>
+                        <span class="carrito-item-precio">$16.000</span>
+                    </div>
+                    <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                    </span>
+                </div>
+            -->
+            </div>
+
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu total</strong>
+                    <span class="carrito-precio-total">
+                        $0
+                    </span>
+                </div>
+                <button class="btn-pagar">pagar <i class="fa-solid fa-sack-dollar"></i></button>
+                
+            </div>
+ 
+
+
+
+        </div>
+    </section>

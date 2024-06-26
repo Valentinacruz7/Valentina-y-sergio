@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catalogo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="titulo"> <h1>CATALOGO</h1></div>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="./imagenes/sena logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <h3>hortalizas</h3>
+                        <p>En nuestro huerto podemos encontrar las hortalizas ya que son vegetales comestibles. Se trata de plantas valoradas por sus cualidades nutricionales así como por su sabor que forman parte de la dieta del ser humano.</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./imagenes/hortalizas.jpg" alt="">
+                    </div>
+                </div>
+                <a href="catalogo5.html" class="btn-1">ELEGIR</a>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="./imagenes/sena logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <h3>flores</h3>
+                        <p>Aqui puedes encontrar gran variedad de flores de todo tipo, las cuidamos y manejamos de la mejor y mas valiosa manera para nuestros servidores siendo asi las mas preferidas</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./imagenes/flores.jpg" alt="">
+                    </div>
+                </div>
+                <button"><a href="catalogo4.html" class="btn-1">ELEGIR</a></button> 
+                
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="./imagenes/sena logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <h3>frutas</h3>
+                        <p>Igual que cada producto que hay, tenemos las frutas, cuyo producto es uno de los mas vendidos y queridos por todo el mundo, La fruta es el fruto comestible, Suele ser ingerida como postre, ya sea fresca o cocinada. Por lo general la fruta se come cuando está madura,también se elaboran jugos, jaleas y mermeladas de fruta</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./imagenes/frutas.avif" alt="">
+                    </div>
+                </div>
+                <button"><a href="catalogo3.html" class="btn-1">ELEGIR</a></button>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="./imagenes/sena logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <h3>lacteos</h3>
+                        <p>Tambien manejamos la seccion de los lacteos, tenemos lacteos sin ningun tipo de quimicos, tratamientos, leche totalmente de la vaca, manejamos el yogurt artesanal, la mejor calidad para ti</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./imagenes/lacteos.jpg" alt="">
+                    </div>
+                </div>
+                <button"><a href="catalogo1.html" class="btn-1">ELEGIR</a></button>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="icons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <img src="./imagenes/sena logo.png" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="product-content">
+                    <div class="product-txt">
+                        <h3>verduras</h3>
+                        <p>En esta seccion, tenemos las mas deliciosas y frescas verduras para tus lindos platos, cosechadas por nuestros heroes campesinos.
+                        te tenemos los mejores productos para tu familia y para tu paladar.
+                        </p>
+                    </div>
+                    <div class="product-img">
+                        <img src="./imagenes/verduras.jpg" alt="">
+                    </div>
+                </div>
+                <a href="catalogo2.html" class="btn-1">ELEGIR</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper",{
+            effect: "coverflow",
+            grabcursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                depth:500,
+                modifer:1,
+                slidesShadows:true,
+                rotate:0,
+                stretch:0
+            }
+        })
+    </script>
+</body>
+</html>
